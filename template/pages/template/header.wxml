@@ -1,10 +1,10 @@
 <template name="header">
   <view class='header'>
-  <text>头</text>
+  <text>{{ header }}</text>
 </view>
 </template>  
 <template name="footer">
   <view class='footer'>
-  <text>尾</text>
+  <text>{{ footer }}</text>
 </view>
 </template>

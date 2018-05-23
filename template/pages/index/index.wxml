@@ -1,5 +1,5 @@
 <import src="../template/header.wxml" />
 <view class='index'>
-  <template is="header"></template>
-  <template is="footer"></template>
+  <template is="header"  data="{{ header }}"></template>
+  <template is="footer" data="{{ footer }}"></template>
 </view>
