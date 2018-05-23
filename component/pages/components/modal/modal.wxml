@@ -1,0 +1,13 @@
+<view hidden='{{ !isShow }}'>
+  <view class='mask_layer'></view>
+  <view class='modal-box'>
+    <view class='title'>{{ modalTitle }}</view>
+    <view class='content'>
+      <text class='modalMsg'>{{ modalContext }}</text>
+    </view>
+    <view class='btn'>
+      <view class='cancel' catchtap='_cancelEvent'>{{ modalCancel }}</view>
+      <view class='sure' catchtap='_confirmEvent'>{{ modalSure }}</view>
+    </view>
+  </view>
+</view>
