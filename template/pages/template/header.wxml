@@ -1,3 +1,4 @@
+<!-- import代码 -->
 <template name="header">
   <view class='header'>
   <text>{{ header }}</text>
@@ -8,3 +9,10 @@
   <text>{{ footer }}</text>
 </view>
 </template>
+<!-- import代码 -->
+
+<!-- include代码 -->
+<view>
+  我是除了template之外的代码
+</view>
+<!-- include代码 -->
