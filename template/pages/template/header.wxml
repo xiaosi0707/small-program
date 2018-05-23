@@ -1,0 +1,10 @@
+<template name="header">
+  <view class='header'>
+  <text>头</text>
+</view>
+</template>  
+<template name="footer">
+  <view class='footer'>
+  <text>尾</text>
+</view>
+</template>

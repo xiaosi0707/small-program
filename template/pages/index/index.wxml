@@ -1,0 +1,5 @@
+<import src="../template/header.wxml" />
+<view class='index'>
+  <template is="header"></template>
+  <template is="footer"></template>
+</view>
