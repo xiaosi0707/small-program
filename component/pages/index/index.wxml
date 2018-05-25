@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view class="container">
-  <modal id="modal" modalTitle="模态框" modalContext="找到工作啦！O(∩_∩)O哈哈~" modalCancel="取消" modalSure="确定" bind:confirmEvent="_confirmEvent" bind:cancelEvent="_cancelEvent"></modal>
+  <modal id="modal" modalTitle="模态框" modalContext="找到工作啦！O(∩_∩)O哈哈~" modalCancel="取消" modalSure="确定" bind:confirmEvent="_confirmEvent" bind:cancelEvent="_cancelEvent">
+    <view>哈哈哈，我是slot</view>
+  </modal>
   <button type="primary" bindtap='showModalIndex'>打开modal</button>
 </view>
