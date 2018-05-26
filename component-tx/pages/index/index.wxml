@@ -1,5 +1,9 @@
 <!--index.wxml-->
 <view class="container">
-  <component-a></component-a>
-   <component-b></component-b>
+  <component-ul>
+    <component-li></component-li>
+    <component-li></component-li>
+    <component-li></component-li>
+  </component-ul>
+   
 </view>

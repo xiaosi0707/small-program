@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "component-a": "../components/a/a",
-    "component-b": "../components/b/b"
+    "component-ul": "../components/ul/ul",
+    "component-li": "../components/li/li"
   }
 }

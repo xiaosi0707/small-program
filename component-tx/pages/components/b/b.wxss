@@ -1,8 +1,0 @@
-.com-b {
-  width: 100%;
-  height: 200rpx;
-  line-height: 200rpx;
-  background: orange;
-  text-align: center;
-  color: white;
-}
