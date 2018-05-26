@@ -42,7 +42,11 @@ Component({
     },
     // 触发成功回调
     _confirmEvent() {
-      this.triggerEvent("confirmEvent")
+      let componentData = {
+        name: 'smallFour',
+        age: '24'
+      }
+      this.triggerEvent("confirmEvent", componentData) // 组件传递数据到主页面
     },
     // 触发取消回调
     _cancelEvent() {

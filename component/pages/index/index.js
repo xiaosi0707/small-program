@@ -26,7 +26,8 @@ Page({
   showModalIndex() {
     this.modal.showModal()
   },
-  _confirmEvent() {
+  _confirmEvent(mainData) {
+    console.log(mainData) // 接收组件传递过来的数据
     this.modal.hideModal();
   },
   _cancelEvent() {
