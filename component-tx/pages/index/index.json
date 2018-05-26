@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "component-a": "../components/a/a",
+    "component-b": "../components/b/b"
+  }
+}

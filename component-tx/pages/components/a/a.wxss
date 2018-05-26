@@ -1,0 +1,8 @@
+.com-a {
+  width: 100%;
+  height: 200rpx;
+  line-height: 200rpx;
+  background: red;
+  text-align: center;
+  color: white;
+}

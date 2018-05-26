@@ -1,0 +1,3 @@
+<view class="com-b">
+  <text>我是b组件</text>
+</view>
