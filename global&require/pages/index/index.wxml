@@ -1,0 +1,5 @@
+<!--index.wxml 先加加后过去看有没有变化-->
+<view class="container">
+  <button type='primary' catchtap='increment'>+</button>
+  <button type='info' catchtap='goLook'>过去看看</button>
+</view>

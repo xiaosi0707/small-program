@@ -1,0 +1,4 @@
+<view class="com-ul">
+  <text>我是UL组件</text>
+  <slot></slot>
+</view>
