@@ -1,6 +1,5 @@
 <!--index.wxml-->
+<wxs src="../common/utils.wxs" module="utils"></wxs>
 <view class="container">
-  <view wx:for="{{ names }}" wx:key="item">
-    {{ item }}
-  </view>
+  {{ utils.joinArray(names) }}
 </view>

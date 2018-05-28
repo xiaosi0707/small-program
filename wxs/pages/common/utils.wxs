@@ -1,0 +1,6 @@
+var joinArray = function (arr) {
+  return arr.join(' ')
+}
+module.exports = {
+  joinArray: joinArray
+}
