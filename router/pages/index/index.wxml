@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  首页
+  <navigator url="/pages/classify/classify" open-type="switchTab">分类</navigator>
+  <view bindtap='goCart'>购物车</view>
 </view>
